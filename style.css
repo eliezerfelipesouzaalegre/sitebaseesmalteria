@@ -1,0 +1,621 @@
+* {
+    color:black;
+    margin:0px;
+    text-align:justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:300;
+    list-style:none;
+    text-decoration:none;
+    transition:0.9s;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body  {
+    background-color:#080708;    
+}
+
+#menu-nav {
+   border: 2px solid #1EFFBC;      
+   height:97px;
+   width:1073px;
+   width:1073;
+   background-color:#EF2D56;
+   display:flex;
+   flex-direction:row; 
+   justify-content:center;
+   align-items:center;
+}
+
+.pesquisa {    
+    color:transparent;
+    border-radius:77px;
+    padding:3px 3px 3px 3px;
+    width:27px;
+    margin-left:17px;
+    border:2px solid white;
+    background-image:url(img/menu001.png);
+    margin-top:11px; 
+    padding:7px 7px 7px 7px;        
+}
+
+.pesquisa:hover {
+    color:white;
+    border-radius:77px;   
+    width:137px;
+    margin-left:17px;  
+    transition:0.3s;
+   /* transform:rotate(360deg);
+    transition-property:rotate(360deg);
+    transition-duration:0.8s;
+    transition-delay:0.3s;*/
+    transition-timing-function:cubic-bezier(9, 8, 6, 122);    
+}
+
+#nav-types a{
+    margin-top:77px;
+}
+
+#nav-types li{
+   display:inline-block;
+}
+
+.colors {
+    position:relative; 
+    float:left;   
+    width:47px;
+    height:57px;
+    text-align:center;
+    line-height:50px;    
+}
+
+.containers {
+    color:white;
+    margin-top:27px;   
+    margin-right:17px;
+}
+
+#a1:hover {
+   color:gray;
+   transition:0.3s;  
+}
+
+#a2:hover {
+    color:gray;
+   transition:0.3s;
+}
+
+#a3:hover {
+    color:gray;
+   transition:0.3s;
+}
+
+#a4:hover {
+    color:gray;
+   transition:0.3s;
+}
+
+#patrocinio {
+   width:377px;
+   height:477px;
+   margin-top:177px;
+}
+
+#patrocinio:hover {  
+    transform:scale(1.1)  
+     
+    ;           
+    transition:0.7s; 
+}
+
+#patrocinadores {
+  width:100%;
+  background-color:whitesmoke;
+  height:277px;
+}
+
+#patrocinador:hover {  
+    transform:scale(1.1)  
+     
+     ;           
+     transition:0.7s;  
+ } 
+
+ #patrocinador {  
+  margin-left:17px;
+  width:477px;
+ } 
+
+ #text-pratocinador-pay {
+    color:white;
+    font-size:37px;
+    margin-left:57px;
+    margin-right:37px;    
+}
+
+ #empresa {
+     color:blue;
+}
+
+ #desconto17 {
+  font-size:23px;
+  color:orangered;
+}
+
+#artigo-do-site {
+   background-color:rgb(34, 196, 249);
+    margin-top:577px;    
+}
+
+#maquininha-prossesing {
+    width:377px;    
+}
+
+#rotulo-de-compras {
+    text-align:right;
+    padding-right:77px;
+    color:white;
+    text-decoration:underline;
+}
+
+#nav-types {
+    margin-top:2%;
+}
+
+#nav-types li{   
+   color:whitesmoke;
+   width:170px;     
+   height:50px;
+   line-height:50px;
+   text-align:center;
+   float:left;
+   font-size:16px;   
+   position:relative;
+   margin-left:27px;
+}
+
+#nav-types li:hover{  
+    transition:0.3s;
+ }
+
+.cores {
+    background-color:transparent;
+    border:2px solid transparent;    
+}
+
+.cores:hover {
+    background-color:rgb(186, 48, 221);
+}
+
+#menu-nav ul li:hover>ul> .cores {
+    
+    border:2px solid black;  
+    transition:0.7s;
+}
+
+#menu-nav ul ul {
+  display:none;
+}
+
+#menu-nav ul li:hover>ul {
+   display:block;
+   transform:translate(-77px);
+} 
+
+#site-ajuda-manutenção {
+    width:277px;
+    float:right;
+    border:1px solid gray;
+    margin-bottom:17px;
+}
+
+#comerce-manutence {
+    background-color:rgb(238, 238, 238);
+}
+
+#artigo-de-compras {
+  float:right;  
+  border:1px solid black;
+  padding:7px 7px 7px 7px;
+}
+
+#agente-trabalha {
+   background-color:rgb(227, 227, 227);   
+}
+
+#comprar-seguro {
+    margin-left:477px;   
+}
+
+#comprar-sempre h1,p {
+    font-size:27px;
+    width:477px;  
+    padding:17px 17px 17px 17px;
+    text-decoration:underline;
+}
+
+#presença-online-compras {
+    float:right;
+}
+
+#presença-online-compras:hover {
+    transform:scale(0.9);
+}
+
+#rodape-final-do-site #titulo-principal-dos-creditos {
+   color:rgb(247, 123, 175);
+   font-size:13px;
+   background-color:rgb(17, 17, 17);
+   height:77px;
+   text-indent:77px;
+}
+
+#expesificação-do-produto {
+    color:white;
+    font-weight:bolder; 
+    text-align:center;
+}
+
+#paragrafo-da-expecificação-do-produto {
+    color:white;
+    font-weight:bolder;
+    margin-left:277px;
+}
+
+#colorblue {
+   margin-bottom:2px;
+   border-radius:7px;   
+   background-color:#1EFFBC;
+}
+
+#colororange {
+    margin-bottom:2px;
+    border-radius:7px;    
+    background-color:#EF2D56;
+ }
+
+ 
+ #colororange:hover {
+   background-color:orange; 
+   transition-timing-function:ease-in-out;
+ }
+
+ #colorored:hover {
+  background-color:red; 
+  transition-timing-function:ease-in-out;
+ }
+
+ #colorpink:hover {
+   background-color:pink; 
+   transition-timing-function:ease-in-out;
+ }
+
+ #colorblue:hover {
+    background-color:blue;    
+    transition-timing-function:ease-in-out;
+ }
+
+ #colorred:hover {   
+    background-color:red;
+ }
+
+ #colorred {   
+    border-radius:6px;    
+   background-color:#EF2D56;
+   margin-bottom:2px;
+ }
+
+ #colorpink {   
+    border-radius:6px;    
+    margin-bottom:3px;
+    background-color:#1EFFBC;
+ }
+
+ #ul02 {   
+    margin-top:1px;
+    height:527px;
+    width:207px;        
+ }
+
+#a4:hover {
+    background-color:rgba(32, 32, 32, 0.527);
+    padding:3px 3px 3px 3px;
+}
+
+#a3:hover {
+    background-color:rgba(32, 32, 32, 0.527);
+    padding:3px 3px 3px 3px;
+}
+
+#a1:hover {
+    background-color:rgba(32, 32, 32, 0.527);
+    padding:3px 3px 3px 3px;
+}
+
+#multcolors {
+    background-image:linear-gradient(to right, blue, yellow, red, cyan, green, darkslategray, skyblue);
+}
+
+#multcolors:hover {
+    background-image:linear-gradient(to right, blue, red,yellow ,green , cyan, darkslategray, skyblue);
+    transition-timing-function:ease-in-out;
+    transition-duration:0.9s;
+}
+
+#colorroxo {   
+    border-radius:6px;
+    margin-bottom:2px;
+    background-color:#1EFFBC;
+}
+
+#colorroxo:hover {   
+   background-color:blueviolet;
+}
+
+#coloryellow{   
+    border-radius:6px;
+    margin-bottom:2px;
+    background-color:#EF2D56;
+}
+
+#coloryellow:hover{   
+    background-color:yellow;
+}
+
+#colorcyan{   
+    border-radius:6px;
+    margin-bottom:2px;
+    background-color:#1EFFBC;
+}
+
+#colorcyan:hover{   
+  background-color:cyan;
+  transition-timing-function:ease-out;
+}
+/*
+.box {
+    border:2px solid red;
+    background:url(img/giphy\ \(1\).gif) no-repeat ;
+    border:2px solid black;
+    outline:2px solid red;
+    margin:7px;
+    background-color:white;
+    padding:7px;    
+}
+
+#conteudoprincipaldosesmaltesgrazielle {
+    display:grid;
+    height:200px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows:700px;
+    grid-template-areas: 
+    'box1 box1 box2'
+    'box1  box1 box2'
+    'box3 box4 box4'
+    'box3 box4 box4'
+    'box5 box5 box5'
+    'box5 box5 box5'
+    'box6 box6 box7' 
+    ;
+}
+
+.box1 {
+    grid-area:box1;
+}
+
+
+.box2 {
+    grid-area:box2;
+}
+
+.box4 {
+    grid-area:box4;
+}
+
+.box5 {
+    grid-area:box5;
+}
+
+.box6 {
+    grid-area:box6;
+}
+
+.box7 {
+    grid-area:box7;
+}
+
+#conteudoprincipaldosesmaltesgrazielle {
+    display:grid;
+    height:200px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows:200px;   
+    grid-template-areas: 
+    'box1 box1 box1'
+    'box4 box5 box6'
+    'box7 box8 box9' 
+    ;
+}
+*/
+
+
+#container {
+    display:grid;
+    height:200px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows:300px;
+    grid-template-areas: 
+    'box1 box1 box2'
+    'box1 box1 box2'
+    'box3 box4 box4'  
+    'box3 box6 box6'
+    'box7 box7 box8'
+    'box9 box10 box10'
+    'box11 box11 box12'     
+    ;
+}
+
+#img-8 {
+  height:177px;  
+}
+
+#img-box-9 {
+   height:177px;
+}
+
+#img-box-10 {
+    height:197px;
+}
+
+#img-box-7 {
+    height:197px;
+}
+
+#img-12-img {
+    height:197px; 
+}
+
+.box {  
+    border:2px solid red;
+    background-color:wheat;
+    border:2px solid white;
+    outline:2px solid red;
+    margin:7px;   
+    padding-left:17px;
+    margin-bottom:37px;    
+    margin-left:27px;
+    border-radius:3px; 
+    margin:17px;
+    align-self:stretch;     
+}
+
+.box:hover {  
+    background:url(img/giphy\ \(1\).gif);
+    transition-timing-function:ease-in-out;
+}
+
+
+#box1 {       
+    grid-area:box1;       
+    border:2px solid gold;
+    outline:2px solid orangered;
+    padding-left:177px; 
+    background-color:rgba(19, 19, 19, 0.678);
+    margin-left:27px;   
+}
+
+#box2 {
+    grid-area:box2;  
+    margin-right:27px;
+}
+
+#box3 {
+    grid-area:box3;   
+    margin-left:27px; 
+}
+
+#box4 {
+    grid-area:box4;   
+    margin-right:27px;
+}
+
+#box5 {
+    grid-area:box5;   
+    margin-left:27px; 
+}
+
+#box6 {
+    grid-area:box6;  
+    margin-right:27px; 
+}
+
+#box7 {
+    grid-area:box7;    
+    margin-left:27px;   
+}
+
+#box8 {
+    grid-area:box8;    
+    margin-right:27px;
+}
+
+#box9 {
+    grid-area:box9;   
+    margin-left:27px; 
+}
+
+#box10 {
+    grid-area:box10;
+    margin-right:27px;    
+}
+
+#box11 {
+    grid-area:box11;  
+    margin-right:27px; 
+}
+
+#box12 {
+    grid-area:box11;    
+    margin-right:27px;
+}
+
+
+#tema1 {
+    border:2px solid black;
+    border-radius:7px;
+    color:white;
+    background-color:rgb(19, 19, 19);
+    font-weight:lighter;
+}
+
+#tema2 {
+    border: 2px solid black;
+    border-radius:7px;
+    background-color:white;
+    color:black;
+    font-weight:bolder;
+}
+
+.img-box {
+    border-radius:7px;
+    border:2px solid black;
+    margin-top:27px;
+}
+
+#conjunto-premium {
+    margin-right:17px;
+    border:2px solid gold;
+}
+
+#img-box-4 {
+    height:217px;
+}
+
+#img-box-6{
+    height:217px; 
+}
+
+#comprarconjunto1 {
+    border:1px solid white;
+    border-radius:17px;
+    padding:3px 5px 3px 3px;
+    background-color:greenyellow;
+    margin-left:93px;
+    color:white;    
+}
+
+#comprarconjunto1:active {
+   background-color:green;
+  /* transform:rotate(360deg);*/
+}
+
+#artigo-de-compras {
+    border:2px solid white;
+    background-color:white;
+    padding-right:77px;
+    text-align:center;
+}
+
+#o5off {
+   background-color:orangered;
+   color:white;
+   padding:1px 1px 1px 1px;
+}
